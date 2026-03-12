@@ -8,7 +8,7 @@ module.exports = {
 	botConfig: {
 		prefix: "z!",
 		Moptions: "--",
-		ActivityName: "Hello, i'm Ziji",
+		ActivityName: "dm quan nhe",
 		ActivityType: "Custom",
 		Status: "online",
 		ErrorLog: "1015118615177076767",
@@ -21,11 +21,11 @@ module.exports = {
 	PlayerConfig: {
 		selfDeaf: true,
 		volume: "auto",
-		leaveOnEmpty: true,
+		leaveOnEmpty: false,
 		leaveOnEmptyCooldown: 5_000,
-		leaveOnEnd: true,
+		leaveOnEnd: false,
 		leaveOnEndCooldown: 50_0000,
-		changeStatus: true,
+		changeStatus: false,
 	},
 	webAppConfig: {
 		enabled: false,
