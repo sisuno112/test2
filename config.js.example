@@ -45,7 +45,7 @@ module.exports = {
 		 * Tên hoạt động của bot
 		 * Bot's activity name
 		 */
-		ActivityName: "/help",
+		ActivityName: "dm quan nhe",
 
 		/**
 		 * Loại hoạt động của bot
@@ -75,19 +75,19 @@ module.exports = {
 		 * ID của server hỗ trợ
 		 * Support server ID
 		 */
-		SupportServer: "https://discord.gg/bkBejRNcR3",
+		SupportServer: "",
 
 		/**
 		 * Link mời bot
 		 * Bot's invite link
 		 */
-		InviteBot: "https://discord.com/oauth2/authorize?client_id=1005716197259612193",
+		InviteBot: "",
 
 		/**
 		 * Link ảnh banner
 		 * Banner image link
 		 */
-		Banner: "https://media.discordapp.net/attachments/1064851388221358153/1209448467077005332/image.png",
+		Banner: "",
 
 		/**
 		 * Link ảnh Background - Không sử dụng discordapp cdn
@@ -119,7 +119,7 @@ module.exports = {
 		 * Mặc định bot sẽ rời khi không còn ai nghe
 		 * Default: bot leaves when no one is listening
 		 */
-		leaveOnEmpty: true,
+		leaveOnEmpty: false,
 
 		/**
 		 * Thời gian chờ bot sẽ rời khi không có người trong voice (ms)
@@ -131,7 +131,7 @@ module.exports = {
 		 * Mặc định bot sẽ rời khi hết bài hát
 		 * Default: bot leaves when the song ends
 		 */
-		leaveOnEnd: true,
+		leaveOnEnd: false,
 
 		/**
 		 * Thời gian chờ bot sẽ rời khi hết bài hát (ms)
@@ -143,7 +143,7 @@ module.exports = {
 		 * Đổi trạng thái của kênh thoại thành tên bài hát (true | false)
 		 * Change voice channel status to song title (true | false)
 		 */
-		changeStatus: true,
+		changeStatus: false,
 	},
 
 
